@@ -49,6 +49,11 @@ locked_while_printing = true
 initial_state = off
 timer = 8
 
+[power Main Power]
+type = klipper_device
+object_name = output_pin main_power
+timer = 8
+
 [power Reset Power]
 type = gpio
 pin = gpiochip0/gpio20
